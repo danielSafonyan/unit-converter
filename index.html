@@ -9,6 +9,41 @@
     <title>Document</title>
 </head>
 <body>
-    Hello World!
+    <div class="convert-value">
+        <h2>Metric/Imperial Unit Conversion</h2>
+        <input type="number" value="20">
+        <button>Convert</button>
+    </div>
+    <div class="results">
+        <div class="result-container">
+            <h3>Length (Meter/Feet)</h3>
+            <p>
+                <span class="conversion-start">20</span> meters = 
+                <span id="converted-to-feet">65.616</span> feet 
+                | 
+                <span class="conversion-start">20</span> feet = 
+                <span id="converted-to-meters">65.616</span> meters
+            </p>
+        </div>
+        <div class="result-container">
+            <h3>Volume (Liters/Gallons)</h3>
+            <p>
+                <span class="conversion-start">20</span> liters =
+                <span id="converted-to-gallons">65.616</span> gallons
+                |
+                <span class="conversion-start">20</span> gallons =
+                <span id="converted-to-liters">65.616</span> liters
+            </p>
+        </div>
+        <div class="result-container">
+            <h3>Mass (Kilograms/Pounds)</h3>
+                <span class="conversion-start">20</span> kilos =
+                <span id="converted-to-pounds">65.616</span> pounds
+                |
+                <span class="conversion-start">20</span> pounds =
+                <span id="converted-to-kilos">65.616</span> kilos
+            </p>
+        </div>
+    </div>
 </body>
 </html>
